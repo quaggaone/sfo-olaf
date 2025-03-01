@@ -61,7 +61,7 @@ a {
 
     &.external::after,
     &[href*="://"]:not([href*="olaf.one"])::after,
-    &[href*="www."]:not([href*="olaf.one"])::after {
+    &[href*="www."]:not([href*="olaf.one"])::after, &[target="_blank"]::after {
         content: '\F1C5';
         display: inline-block;
         font-family: 'bootstrap-icons';
@@ -740,7 +740,7 @@ section {
 
             &::before {
                 content: '';
-                background-image: linear-gradient(#00000080, #00000080);
+                background-image: linear-gradient(#000000A0, #000000A0);
                 position: absolute;
                 inset: 0;
             }
