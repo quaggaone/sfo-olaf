@@ -13,6 +13,6 @@ module.exports = function (eleventyConfig) {
         dir: {
             input: "src",
         },
-        pathPrefix: "/sfo-olaf/",
+        pathPrefix: "/olaf-sfo/",
     };
 };

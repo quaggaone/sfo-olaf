@@ -1,5 +1,5 @@
 {
-  "name": "sfo-olaf",
+  "name": "olaf-sfo",
   "version": "0.1.0",
   "description": "Development environment for the olaf.one website",
   "main": "index.js",
@@ -12,8 +12,8 @@
     "build:eleventy": "eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "quaggax",
-  "license": "ISC",
+  "author": "",
+  "license": "UNLICENSED",
   "dependencies": {
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3",
